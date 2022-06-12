@@ -1,15 +1,15 @@
 // M1 Extra task 1
 
 const groceries = {
-    "Orange Juice": {
+    "Apples": {
     price : 1.5,
     discount: 10,
     },
-    "Chocolate": {
+    "Rice": {
     price : 2,
     discount : 0,
     },
-    'Potato': { 
+    'Carrot': { 
         price: 1.4, 
         discount : 0 },
     // more items...
@@ -17,8 +17,8 @@ const groceries = {
 
 
 const shoppingBag = [
-        { product: 'Chocolate', quantity: 3 },
-        { product: 'Orange Juice', quantity: 23 },
+        { product: 'Rice', quantity: 3 },
+        { product: 'Carrot', quantity: 23 },
         ]
 
 
@@ -35,6 +35,6 @@ function getTotalPriceOfShoppingBag(shoppingBag) {
 }
 
 
-const totalPrice = getTotalPriceOfShoppingBag(shoppingBag);
-console.log('totalPrice', totalPrice); // Возвращает 37.05
+const totalInCart = getTotalPriceOfShoppingBag(shoppingBag);
+console.log('totalInCart', totalInCart);
 

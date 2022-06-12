@@ -1,5 +1,3 @@
-// M1 Extra task 1
-
 const groceries = {
     "Apples": {
     price : 1.5,
